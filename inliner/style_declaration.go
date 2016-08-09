@@ -1,6 +1,6 @@
 package inliner
 
-import "github.com/aymerick/douceur/css"
+import "github.com/nguyenvanduocit/htmlinliner/css"
 
 // StyleDeclaration represents a style declaration
 type StyleDeclaration struct {
