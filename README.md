@@ -1,8 +1,8 @@
-# douceur [![Build Status](https://secure.travis-ci.org/nguyenvanduocit/htmlinliner.svg?branch=master)](http://travis-ci.org/nguyenvanduocit/htmlinliner)
+# htmliner [![Build Status](https://travis-ci.org/nguyenvanduocit/htmlinliner.svg?branch=master)](http://travis-ci.org/nguyenvanduocit/htmlinliner)
 
 A simple CSS parser and inliner in Golang.
 
-![Douceur Logo](https://github.com/nguyenvanduocit/htmlinliner/blob/master/douceur.png?raw=true "Douceur")
+![htmliner Logo](https://github.com/nguyenvanduocit/htmlinliner/blob/master/htmliner.png?raw=true "htmliner")
 
 Parser is vaguely inspired by [CSS Syntax Module Level 3](http://www.w3.org/TR/css3-syntax) and [corresponding JS parser](https://github.com/tabatkins/parse-css).
 
@@ -48,11 +48,11 @@ Install tool:
 
 Parse a CSS file and display result:
 
-    $ douceur parse inputfile.css
+    $ htmliner parse inputfile.css
 
 Inline CSS in an HTML document and display result:
 
-    $ douceur inline inputfile.html
+    $ htmliner inline inputfile.html
 
 
 ## Library usage
@@ -168,10 +168,14 @@ Displays:
 ## Dependencies
 
   - Parser uses [Gorilla CSS3 tokenizer](https://github.com/gorilla/css).
-  - Inliner uses [goquery](github.com/PuerkitoBio/goquery) to manipulate HTML.
+  - Inliner uses [goquery](https://github.com/PuerkitoBio/goquery) to manipulate HTML.
 
 
 ## Similar projects
 
   - [premailer](https://github.com/premailer/premailer)
   - [roadie](https://github.com/Mange/roadie)
+
+# Why I don't make PR to douceur?
+
+Because the author is forget this project, no PR accepted.
