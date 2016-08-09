@@ -34,7 +34,7 @@ Becomes:
   <body style="background-color: #f2f2f2;" bgcolor="#f2f2f2">
     <p>Inline me !</p>
   </body>
-</html>`
+</html>
 ```
 
 The `bgcolor` attribute is inserted, in addition to the inlined `background-color` style.
